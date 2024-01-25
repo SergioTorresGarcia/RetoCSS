@@ -1,4 +1,4 @@
-Practical CSS exercise:
+<h2>Practical CSS exercise:</h2>
 
 - Generate an html+css view with 10 different color boxes, all reactive to hover. No color repetition
 - The project must be linked to a repository
