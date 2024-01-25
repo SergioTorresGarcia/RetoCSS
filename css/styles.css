@@ -25,6 +25,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+main:active {
+    flex-direction: row;
+}
 
 #boxesUp {
     display: flex;
@@ -34,11 +37,11 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .box {
     height: 8em;
     width: 8em;
     margin:1em;
-    background-color: blueviolet;
 }
 
 #a {
@@ -56,10 +59,12 @@ body {
     transition:1s;
 }
 #b:hover {
+    background-color: coral;
     transition:1s;
     border-radius: 10%;
-    margin: 5em;
-    transform: rotate(90deg);
+    margin-left: 5em;
+    margin-right: 5em;
+    
 }
 #c{
     background-color: lightgreen;
@@ -69,7 +74,7 @@ body {
     background-color: aquamarine;
     transition: 1s;
     border-radius: 50%;
-    margin-bottom: 10em;
+    margin-top: -2em;
 }
 #d {
     background-color: lightsalmon;
@@ -78,16 +83,17 @@ body {
 #d:hover {
     background-color: orangered;
     transition:1s;
-    border-radius: 50% 10% 50% 10%;
+    border-radius: 20% 20% 20% 20%;
+    transform: rotate(90deg);
 }
 #e {
-    background-color: lightcyan;
+    background-color: lightgray;
     transition: 1s;
 }
 #e:hover {
-    background-color: cyan;
+    background-color: teal;
     transition:1s;
-    border-radius: 50% 10% 50% 10%;
+    
 }
 
 #f {
@@ -101,15 +107,15 @@ body {
     
 }
 #g {
-    background-color: lightgray;
+    background-color: lightblue;
     transition:1s;
 }
 #g:hover {
-    background-color: gray;
+    background-color: aqua;
     transition:1s;
-    border-radius: 10%;
+    border-radius: 50% 50% 50% 10%;
     margin: 5em;
-    transform: rotate(90deg);
+    transform: rotate(135deg);
 }
 #h{
     background-color: lightpink;
@@ -118,8 +124,9 @@ body {
 #h:hover {
     background-color: pink;
     transition: 1s;
-    border-radius: 50%;
-    margin-bottom: 10em;
+    border-radius: 50% 50% 5% 50%;
+    margin-left: 10em;
+    transform: skewX(20deg);
 }
 #i {
     background-color: lightseagreen;
@@ -128,14 +135,24 @@ body {
 #i:hover {
     background-color: seagreen;
     transition:1s;
-    border-radius: 50% 10% 50% 10%;
+    border-radius: 50% 0% 50% 0%;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
 }
 #j {
     background-color: lightskyblue;
     transition: 1s;
 }
+
 #j:hover {
     background-color: skyblue;
     transition:1s;
     border-radius: 50% 10% 50% 10%;
+}
+#a:active,#c:active,#e:active,#g:active, #i:active {
+    transform: scale(0.5, 0.5);
+    background-color: black;
+}
+#b:active,#d:active,#f:active,#h:active, #j:active {
+    transform: scale(1.5, 1.5);
+    background-color: whitesmoke;
 }
