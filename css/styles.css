@@ -45,14 +45,14 @@ main:active {
 }
 
 #a {
-    background-color: lightblue;
+    background-color: lightyellow;
     transition: 1s;
+    color: teal;
 }
 #a:hover {
     background-color: yellow;
     transition:1s;
-    border-radius: 10% 50% 10% 50%;
-    
+    border-radius: 10% 50% 10% 50%;    
 }
 #b {
     background-color: lightcoral;
@@ -97,13 +97,14 @@ main:active {
 }
 
 #f {
-    background-color: lightgoldenrodyellow;
+    background-color: goldenrod;
     transition: 1s;
 }
 #f:hover {
-    background-color: goldenrod;
-    transition:1s;
+    background-color: orange;
+    transition:3s;
     border-radius: 10% 50% 10% 50%;
+    transform: rotate(540deg);
     
 }
 #g {
@@ -133,10 +134,12 @@ main:active {
     transition: 1s;
 }
 #i:hover {
-    background-color: seagreen;
+    background-color: teal;
     transition:1s;
     border-radius: 50% 0% 50% 0%;
     transform: matrix(1, -0.3, 0, 1, 0, 0);
+    transform: scale(0.8);
+    border: 0.3em solid gray;
 }
 #j {
     background-color: lightskyblue;
@@ -145,8 +148,11 @@ main:active {
 
 #j:hover {
     background-color: skyblue;
+    
     transition:1s;
-    border-radius: 50% 10% 50% 10%;
+    border-radius: 50%;
+    transform: scale(0.8);
+    
 }
 #a:active,#c:active,#e:active,#g:active, #i:active {
     transform: scale(0.5, 0.5);
