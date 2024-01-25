@@ -1,3 +1,8 @@
+## BOXES
+
+<img width="867" alt="boxes" src="https://github.com/SergioTorresGarcia/RetoCSS/assets/90457425/8d4d41b4-8fbd-431c-add5-d0a13273bf5f">
+
+
 <h2>Practical CSS exercise:</h2>
 
 - Generate an html+css view with 10 different color boxes, all reactive to hover. No color repetition
