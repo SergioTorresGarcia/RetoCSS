@@ -9,5 +9,5 @@ Practical CSS exercise:
 When hovering over the boxes, these change color, shape and/or size.
 When clicking (and holding) on them, some would become smaller and black and others bigger and white.
 
-Have fun: 
+Have fun: https://sergiotorresgarcia.github.io/RetoCSS/
 
