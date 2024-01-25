@@ -10,11 +10,23 @@ body {
 
     background-color: teal;
 
-    display: flex;
     justify-content: center;
     align-items: center;
+
+    display: flex;
+    flex-direction: column;
 }
 
+#title {
+    color: whitesmoke;
+    font-size: 3em;
+    align-self: center;
+    margin-bottom: 1em;
+}
+#boxes {
+    display: flex;
+    flex-direction: row;
+}
 .box {
     height: 5em;
     width: 5em;
